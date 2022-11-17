@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Tawi </title>
+        <title>Tawi Village</title>
 
         <link rel="apple-touch-icon" sizes="144x144" href="{{ asset("ico/apple-touch-icon-144-precomposed.png") }}">
         <link rel="shortcut icon" href="{{ asset('ico/favicon.ico') }}">
@@ -24,7 +24,7 @@
     </head>
     <body id="home" class="wide">
 
-        {{-- <div id="loading">
+        <div id="loading">
             <div class="loader">
                 <div class="dot"></div>
                 <div class="dot"></div>
@@ -32,7 +32,7 @@
                 <div class="dot"></div>
                 <div class="dot"></div>
             </div>
-        </div> --}}
+        </div>
 
         <main class="wrapper home-wrap">
             @include('includes.header')
