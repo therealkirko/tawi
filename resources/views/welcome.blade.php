@@ -1,7 +1,7 @@
 <x-app-layout>
     
     {{-- About --}}
-    <section class="organic-farm sec-space-top light-bg">
+    <section class="organic-farm sec-space-top light-bg" id="about">
 
         <img alt="" src="{{ asset("img/extra/sec-img-1.png") }}" class="left-bg-img" />  
         <img alt="" src="{{ asset("img/extra/sec-img-2.png") }}" class="center-bg-img" />  
@@ -155,11 +155,11 @@
             <div class="deal-slider dots-2">
                 <div class="item">
                     <div class="deal-item">
-                        <div class="deal-icons">                                         
+                        {{-- <div class="deal-icons">                                         
                             <a href="#" class="fa fa-heart"></a>
                             <a href="#" class="fa fa-shopping-basket"></a>
                             <a href="#product-preview" data-toggle="modal" class="fa fa-expand"></a>                                      
-                        </div>
+                        </div> --}}
                         <div class="deal-content">
                             <div class="text-right">
                                 <span class="prod-tag tag-1">new</span> <span class="prod-tag tag-2">sale</span>
@@ -178,11 +178,11 @@
                 </div>
                 <div class="item">
                     <div class="deal-item">
-                        <div class="deal-icons">                                         
+                        {{-- <div class="deal-icons">                                         
                             <a href="#" class="fa fa-heart"></a>
                             <a href="#" class="fa fa-shopping-basket"></a>
                             <a href="#product-preview" data-toggle="modal" class="fa fa-expand"></a>                                      
-                        </div>
+                        </div> --}}
                         <div class="deal-content">
                             <div class="text-right">
                                 <span class="prod-tag tag-1">new</span> <span class="prod-tag tag-2">sale</span>
@@ -201,11 +201,11 @@
                 </div>
                 <div class="item">
                     <div class="deal-item">
-                        <div class="deal-icons">                                         
+                        {{-- <div class="deal-icons">                                         
                             <a href="#" class="fa fa-heart"></a>
                             <a href="#" class="fa fa-shopping-basket"></a>
                             <a href="#product-preview" data-toggle="modal" class="fa fa-expand"></a>                                      
-                        </div>
+                        </div> --}}
                         <div class="deal-content">
                             <div class="text-right">
                                 <span class="prod-tag tag-1">new</span> <span class="prod-tag tag-2">sale</span>
@@ -224,11 +224,11 @@
                 </div>
                 <div class="item">
                     <div class="deal-item">
-                        <div class="deal-icons">                                         
+                        {{-- <div class="deal-icons">                                         
                             <a href="#" class="fa fa-heart"></a>
                             <a href="#" class="fa fa-shopping-basket"></a>
                             <a href="#product-preview" data-toggle="modal" class="fa fa-expand"></a>                                      
-                        </div>
+                        </div> --}}
                         <div class="deal-content">
                             <div class="text-right">
                                 <span class="prod-tag tag-1">new</span> <span class="prod-tag tag-2">sale</span>
@@ -250,7 +250,7 @@
     </section>
 
     {{-- Random product --}}
-    <section class=" sec-space-bottom">
+    <section class=" sec-space-bottom" id="products">
         <div class="pattern"> 
             <img alt="" src="{{ asset("img/icons/white-pattern.png") }}">
         </div>
