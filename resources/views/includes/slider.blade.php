@@ -1,7 +1,7 @@
 <section class="main-slide">
     <div id="naturix-slider" class="owl-carousel nav-1">
         <div class="item">                        
-            <img alt=".." src="{{ asset("img/slider/slide-1.jpg") }}">
+            <img alt=".." src="{{ asset("img/slider/slider-1.jpg") }}">
             <div class="tbl-wrp slide-1">
                 <div class="text-middle">
                     <div class="tbl-cell">
@@ -23,7 +23,7 @@
             </div>
         </div>
         <div class="item">                       
-            <img alt=".." src="assets/img/slider/slide-1.jpg">
+            <img alt=".." src="{{ asset("img/slider/slider-1.jpg") }}">
             <div class="tbl-wrp slide-1">
                 <div class="text-middle">
                     <div class="tbl-cell">

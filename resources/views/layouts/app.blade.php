@@ -35,11 +35,11 @@
         </div> --}}
 
         <main class="wrapper home-wrap">
-            <main class="wrapper home-wrap">
-                @include('includes.header')
-                @include('includes.slider')
-                {{$slot}}
-            </main>
+            @include('includes.header')
+            @include('includes.slider')
+            {{$slot}}
+            @include('includes.footer')
+            <div id="to-top-mb" class="to-top mb"> <i class="fa fa-arrow-circle-o-up"></i> </div>
         </main>
 
         <script src="{{ asset("js/plugin/jquery-2.2.4.min.js") }}"></script>   
