@@ -24,7 +24,7 @@
     </head>
     <body id="home" class="wide">
 
-        <div id="loading">
+        {{-- <div id="loading">
             <div class="loader">
                 <div class="dot"></div>
                 <div class="dot"></div>
@@ -32,7 +32,7 @@
                 <div class="dot"></div>
                 <div class="dot"></div>
             </div>
-        </div>
+        </div> --}}
 
         <main class="wrapper home-wrap">
             @include('includes.header')

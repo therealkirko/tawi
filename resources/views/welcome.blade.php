@@ -9,40 +9,44 @@
         <div class="container rel-div">
             <div class="title-wrap">
                 <h2 class="section-title"> <span class="light-font">we are </span> <strong>organic farmfood <img src="{{ asset("img/icons/logo-icon.png") }}" alt="" /> </strong> </h2>
-                <h4 class="sub-title"> <span> ABOUT NATURIX FARMFOOD </span> </h4>
-                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. </p>
+                <h4 class="sub-title"> <span> ABOUT TAWI VILLAGE </span> </h4>
+                <p>Tawi Village Limited has been committed to exporting premium quality
+                    products to the United Kingdom, Europe and the Middle East. In addition
+                    to running our own production units, Tawi Village empowers medium and
+                    small scale farmers through partnerships that enhance agricultural
+                    sustainability and economic development. Our close proximity to Jomo
+                    Kenyatta International Airport (JKIA) – Nairobi, Kenya, coupled with our
+                    efficient team and good relations with our logistics partners have enabled
+                    us to meet and surpass clients expectations.
+                </p>
             </div>
             <div class="row">
                 <div class="col-md-3 col-sm-6 text-center">
                     <div class="feature-wrap">
                         <img src="{{ asset("img/extra/feature-1.png") }}" alt="" />
-                        <h3 class="title-1 ptb-15"> <span class="light-font">fresh from </span> <strong> naturix farm</strong> </h3>
-                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy.  </p>
-                        <a href="#" class="sm-bnt-wht">Read More</a>
+                        <h3 class="title-1 ptb-15"> <span class="light-font">Sustainable </span> <strong> Organic Food</strong> </h3>
+                        <p>We ensure consistent supply of our full range of products </p>
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-6 text-center">
                     <div class="feature-wrap">
                         <img src="{{ asset("img/extra/feature-2.png") }}" alt="" />
-                        <h3 class="title-1 ptb-15"> <span class="light-font"> 100%</span> <strong> organic goods</strong> </h3>
-                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy.  </p>
-                        <a href="#" class="sm-bnt-wht">Read More</a>
+                        <h3 class="title-1 ptb-15"><strong> Integrity </strong> <span class="light-font"> and</span> <strong>Accountability</strong></h3>
+                        <p>We uphold the highest level of ethical behaviour and honesty. We are fully responsible for our actions. </p>
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-6 text-center">
                     <div class="feature-wrap">
                         <img src="{{ asset("img/extra/feature-3.png") }}" alt="" />
-                        <h3 class="title-1 ptb-15"> <span class="light-font">premium </span> <strong> quality</strong> </h3>
-                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy.  </p>
-                        <a href="#" class="sm-bnt-wht">Read More</a>
+                        <h3 class="title-1 ptb-15"> <span class="light-font">Premium </span> <strong> Quality</strong> </h3>
+                        <p>We only export premium quality, safe, and hygienic fresh products.  </p>
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-6 text-center">
                     <div class="feature-wrap">
                         <img src="{{ asset("img/extra/feature-4.png") }}" alt="" />
-                        <h3 class="title-1 ptb-15"> <span class="light-font">100% </span> <strong>natural</strong> </h3>
-                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy.  </p>
-                        <a href="#" class="sm-bnt-wht">Read More</a>
+                        <h3 class="title-1 ptb-15"> <strong>Respect </strong><span class="light-font"> and</span> <strong>Professionalism</strong> </h3>
+                        <p>We acknowledge the importance of each stakeholder in the value chain and hold each relationship in high regard.  </p>
                     </div>
                 </div>
             </div>
@@ -584,8 +588,8 @@
                                 <a href="#"> <img src="{{ asset("img/extra/testi-1.jpg") }}" alt="" /> </a>
                             </div>
                             <div class="testi-caption"> 
-                                <p> <i>“Lorem ipsum dolor sit amet, consectetuer adipiscing elitsed the diam nonummy nibh euismod tincidunt.”</i> </p>
-                                <a href="#"> <i class="fa fa-user clr-txt"></i> <strong> LUIS GARCHIA </strong> </a>
+                                <p> <i>“The fact that they have consistently delivered for us fresh produce for over 3 years for us is what keeps me coming back”</i> </p>
+                                <a href="#"> <i class="fa fa-user clr-txt"></i> <strong> TERRY CHOEL </strong> </a>
                             </div>
                         </div>
                     </div>
@@ -595,8 +599,8 @@
                                 <a href="#"> <img src="{{ asset("img/extra/testi-1.jpg") }}" alt="" /> </a>
                             </div>
                             <div class="testi-caption"> 
-                                <p> <i>“Lorem ipsum dolor sit amet, consectetuer adipiscing elitsed the diam nonummy nibh euismod tincidunt.”</i> </p>
-                                <a href="#"> <i class="fa fa-user clr-txt"></i> <strong> LUIS GARCHIA </strong> </a>
+                                <p> <i>“My whole business model relies on their quality and professionalism and they have never disappointed”</i> </p>
+                                <a href="#"> <i class="fa fa-user clr-txt"></i> <strong> JENNIFER JANIE </strong> </a>
                             </div>
                         </div>
                     </div>

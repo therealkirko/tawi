@@ -4,12 +4,12 @@
             <div class="row">
                 <div class="col-md-6 col-sm-12 footer-widget">
                     <div class="main-logo">
-                        <a href="index.html"> <img alt="" src="{{ asset("img/logo/main-logo.png") }}" />  </a>
-                        <span class="medium-font">ORGANIC STORE</span>
+                        <a href="{{ route('home') }}"> <img alt="" src="{{ asset("img/logo/main-logo.png") }}" />  </a>
+                        <span class="medium-font">TAWI VILLAGE</span>
                     </div>
-                    <span class="divider-2"></span>
+                    {{-- <span class="divider-2"></span> --}}
                     <div class="text-widget">
-                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna.</p>
+                        <p>Since its inception Tawi Village Limited has been committed to exporting premium quality products to the United Kingdom, Europe and the Middle East. In addition to running our own production units, Tawi Village empowers medium and small scale farmers through partnerships that enhance agricultural sustainability and economic development.</p>
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-3 footer-widget">
@@ -19,7 +19,7 @@
                     <span class="divider-2"></span>
                     <div class="text-widget">
                         <ul>
-                            <li> <i class="fa fa-map-marker"></i> <span> <strong>FCB Mirhab,</strong> Kilimani, Nairobi </span> </li>
+                            <li> <i class="fa fa-map-marker"></i> <span> <strong>FCB Mirhab, 7th Floor</strong> Kilimani, Nairobi </span> </li>
                             <li> <i class="fa fa-globe"></i> <span><a href="#">www.tawivillage.co.ke</a> </span> </li>
                         </ul>
                     </div>
@@ -31,8 +31,9 @@
                     <span class="divider-2"></span>
                     <div class="text-widget">
                         <ul>
-                            <li> <i class="fa fa-envelope-square"></i> <span><a href="#">hey@tawivillage.co.ke</a> </span> </li>
-                            <li> <i class="fa fa-phone-square"></i> <span><a href="#">+254 712 345 678</a> </span> </li>
+                            <span class="medium-font">If need any info please contact us!</span>
+                            <li> <i class="fa fa-envelope-square"></i> <span><a href="#">agnes@tawivillage.co.ke</a> </span> </li>
+                            <li> <i class="fa fa-phone-square"></i> <span><a href="#">+254 723 258 874</a> </span> </li>
                         </ul>
                     </div>
                 </div>
@@ -83,7 +84,7 @@
         <div class="container ptb-50">
             <div class="row">
                 <div class="col-md-6 col-sm-5">
-                    <p>©2022 <a href="#"> <strong> tawivillage.co.ke</strong> </a>, made with <i class="fa fa-heart red-clr"></i> by jThemes Studio, all right reserved</p>
+                    <p>©2022 <a href="{{ route('home') }}"> <strong> tawivillage.co.ke</strong> </a>, made with <i class="fa fa-heart red-clr"></i> by jThemes Studio, all right reserved</p>
                 </div>
                 <div class="col-md-6 col-sm-7">
                     <ul class="primary-navbar footer-menu">
